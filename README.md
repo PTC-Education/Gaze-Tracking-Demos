@@ -5,7 +5,7 @@
 
 ### **Table of Contents**
 
-- [What is gaze tracking?](#what-is-gaze-tracking)
+- [What is Gaze Tracking?](#what-is-gaze-tracking)
 - [Proofs of Concept](#proofs-of-concept)
   - Basic Model Manipulation Demo
   - Timing Gaze Duration Demo
@@ -14,6 +14,12 @@
   - Field of Colored Labels #1
   - Field of Colored Labels #2
 
-## What is gaze tracking?
+## What is Gaze Tracking?
 
 Before we jump right into an explanation of gaze tracking, it is important that you understand a little bit about how the position and orientation of objects are defined in a virtual 3D space. To start off, virtually positioning an object in a 3D environment isn't something that was invented for augmented reality. It has actually been around much longer and is widely used in almost every video game you have ever played. It is what allows the computer to keep track of your character and the other objects in the environment and is crucial as you move throughout the virtual area.
+
+In order to define an object's position, the computer must know the object's location and which way it is facing. The location data typically come in the form of 3-dimensional coordinates *(X,Y,Z)*, while the orientation data are commonly a set of orthogonal vectors or angles. These data fully-define any object in 3D space and are essential for a realistic rendering of the virtual environment.
+
+### Position & Orientation in Vuforia 
+
+Vuforia Engine defines objects within the augmented reality space using this same convention.
