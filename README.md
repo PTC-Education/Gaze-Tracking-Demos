@@ -5,8 +5,8 @@
 
 ### **Table of Contents**
 
-- [What is gaze tracking?](##what-is-gaze-tracking)
-- Proofs of Concept
+- [What is gaze tracking?](#what-is-gaze-tracking)
+- [Proofs of Concept](#proofs-of-concept)
   - Basic Model Manipulation Demo
   - Timing Gaze Duration Demo
   - Put That, There Demo
@@ -16,4 +16,4 @@
 
 ## What is gaze tracking?
 
-Before we jump right into an explanation of gaze tracking, it is important that you understand a little bit about how the position and orientation of objects are defined in a virtual 3D space. To start off, virtually positioning an object in a 3D environment isn't something that was invented for augmented reality. It has actually been around much longer and 
+Before we jump right into an explanation of gaze tracking, it is important that you understand a little bit about how the position and orientation of objects are defined in a virtual 3D space. To start off, virtually positioning an object in a 3D environment isn't something that was invented for augmented reality. It has actually been around much longer and is widely used in almost every video game you have ever played. It is what allows the computer to keep track of your character and the other objects in the environment and is crucial as you move throughout the virtual area.
