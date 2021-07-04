@@ -5,7 +5,7 @@
 
 ### **Table of Contents**
 
-- [What is gaze tracking?](#what-is-gaze-tracking?)
+- [What is gaze tracking?](#what-is-gaze-tracking)
 - Proofs of Concept
   - Basic Model Manipulation Demo
   - Timing Gaze Duration Demo
