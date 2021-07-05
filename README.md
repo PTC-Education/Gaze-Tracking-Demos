@@ -24,4 +24,4 @@ In order to define an object's position, the computer must know the object's loc
 
 ### Position & Orientation in Vuforia 
 
-Vuforia Engine defines objects within the augmented reality space using this same convention. 
+Vuforia Engine defines objects within the augmented reality space using this same convention. Every object that is placed into the AR environment has X, Y, & Z-coordinates, as well as X, Y, & Z-rotations 
