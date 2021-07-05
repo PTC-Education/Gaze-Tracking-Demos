@@ -8,11 +8,12 @@
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
 - [Proofs of Concept](#proofs-of-concept)
   - [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
-  - Timing Gaze Duration Demo
-  - Put That, There Demo
-- Analytical Applications
-  - Field of Colored Labels #1
-  - Field of Colored Labels #2
+  - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+  - [Put That, There Demo](#put-that,there-demo)
+- [Analytical Applications](#analytical-applications)
+  - [Ring of Colored Labels](#ring-of-colored-labels)
+  - [Field of Colored Labels](#field-of-colored-labels)
+  - [Board of Colored Labels](#board-of-colored-labels)
 
 ## What is Gaze Tracking?
 
@@ -24,4 +25,6 @@ In order to define an object's position, the computer must know the object's loc
 
 ### Position & Orientation in Vuforia 
 
-Vuforia Engine defines objects within the augmented reality space using these same principles. Every object that is placed into the AR experience must have both its position *(X,Y,Z)* and orientation *(RX, RY, RZ)* defined. With this definition, the AR exprience is rendered consistently, no matter where the viewer is looking from.
+Vuforia Engine defines objects within the augmented reality space using these same principles. Every object that is placed into the AR experience must have both its position and orientation defined. With this definition, the AR exprience is rendered consistently, no matter where the user is looking from. Every widget (e.g., model, model item, 3D label) can be given X,Y,Z-coordinates, as well as X,Y,Z-rotations. The user's position and orientation are also defined out of necessity and are constantly changing as they move through the AR space. In contrast to the angles used for the other objects in the experience, the user's orientation is defined by a pair of orthogonal vectors. 
+
+![User's Location & Position](images/3D%20Position%20%26%20Orientation.png)
