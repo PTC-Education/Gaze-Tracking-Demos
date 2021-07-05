@@ -25,8 +25,10 @@ In order to define an object's position, the computer must know the object's loc
 
 ### Position & Orientation in Vuforia 
 
-Vuforia Engine defines objects within the augmented reality space using these same principles. Every object that is placed into the AR experience must have both its position and orientation defined. With this definition, the AR exprience is rendered consistently, no matter where the user is looking from. Every widget (e.g., model, model item, 3D label) can be given X,Y,Z-coordinates, as well as X,Y,Z-rotations. The user's position and orientation are also defined out of necessity and are constantly changing as they move through the AR space. In contrast to the angles used for the other objects in the experience, the user's orientation is defined by a pair of orthogonal vectors. 
+Vuforia Engine defines objects within the augmented reality space using these same principles. Every object that is placed into the AR experience must have both its position and orientation defined. With this definition, the AR exprience is rendered consistently, no matter where the user is looking from. Every widget (e.g., model, model item, 3D label) can be given X,Y,Z-coordinates, as well as X,Y,Z-rotations.
 
-<img src="images/3D%20Position%20%26%20Orientation.png" width="450">
+The user's position and orientation are also defined out of necessity and are constantly changing as they move through the AR space. In contrast to the angles used for the other objects in the experience, the user's orientation is defined by a pair of orthogonal vectors. In reference to the image below, the user's 3D coordinates are defined as the origin of the 
+
+<img src="images/User%20Position%20%26%20Orientation.png" width="450">
 
 
