@@ -20,8 +20,8 @@
 
 Before we jump right into an explanation of gaze tracking, it is important that you understand a little bit about how the position and orientation of objects are defined in a virtual 3D space. To start off, virtually positioning an object in a 3D environment isn't something that was invented for augmented reality. It has actually been around much longer and is widely used in almost every video game you have ever played. It is what allows the computer to keep track of your character and the other objects in the environment and is crucial as you move throughout the virtual area.
 
-In order to define an object's position, the computer must know the object's location and which way it is facing. The location data typically come in the form of 3-dimensional coordinates *(X,Y,Z)*, while the orientation data are commonly a set of orthogonal vectors or angles. These data fully-define any object in 3D space and are essential for a realistic rendering of the virtual environment.
+In order to define an object's position, the computer must know the object's location and which way it is facing. The location data typically come in the form of 3-dimensional coordinates *(X,Y,Z)*, while the orientation data are commonly a set of angles or orthogonal vectors. These data fully-define any object in 3D space and are essential for a realistic rendering of the virtual environment.
 
 ### Position & Orientation in Vuforia 
 
-Vuforia Engine defines objects within the augmented reality space using this same convention. Every object that is placed into the AR environment has X, Y, & Z-coordinates, as well as X, Y, & Z-rotations 
+Vuforia Engine defines objects within the augmented reality space using these same principles. Every object that is placed into the AR experience must have both its position *(X,Y,Z)* and orientation *(RX, RY, RZ)* defined. With this definition, the AR exprience is rendered consistently, no matter where the viewer is looking from.
