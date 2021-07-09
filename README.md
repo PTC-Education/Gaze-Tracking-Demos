@@ -6,7 +6,7 @@
 ### **Table of Contents**
 
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
-- [Proofs of Concept](#proofs-of-concept)
+- [Model Manipulation](#model-manipulation)
   - [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
   - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
   - [Put That, There Demo](#put-that,there-demo)
@@ -33,4 +33,6 @@ The user's position and orientation are also defined out of necessity and are co
 
 By figuring out how to access this complete set of data, we could know exactly where the user is and where they are looking in realtion to the objects in the AR experience. This knowledge would allow us to take our AR experiences to the next level by using the user's position and gaze to find out more about what they are actually seeing. We can use these data to manipulate the objects in the experience or perform analysis and learn more about the users.
 
-## Proofs of Concept
+## Model Manipulation
+
+In order to show some 
