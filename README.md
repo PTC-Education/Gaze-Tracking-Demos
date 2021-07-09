@@ -1,12 +1,12 @@
 # Gaze-Tracking
 **Purpose:** To inspire creativity in others to find meaningful applications for gaze tracking.
 
-**Summary:** A conglomeration of AR experiences that showcase the power of gaze tracking. The experiences herein can be classified into two primary groups,  proofs of concept or analytical applications. Each experience highlights a separate use case and is intended to inspire creators think about how gaze tracking could enhance their own AR experiences.
+**Summary:** A conglomeration of AR experiences that showcase the power of gaze tracking. The experiences herein can be classified into two primary groups,  object manipulation or analytical applications. Each experience highlights a separate use case and is intended to inspire creators think about how gaze tracking could enhance their own AR experiences.
 
 ### **Table of Contents**
 
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
-- [Model Manipulation](#model-manipulation)
+- [Object Manipulation](#object-manipulation)
   - [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
   - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
   - [Put That, There Demo](#put-that,there-demo)
@@ -33,6 +33,6 @@ The user's position and orientation are also defined out of necessity and are co
 
 By figuring out how to access this complete set of data, we could know exactly where the user is and where they are looking in realtion to the objects in the AR experience. This knowledge would allow us to take our AR experiences to the next level by using the user's position and gaze to find out more about what they are actually seeing. We can use these data to manipulate the objects in the experience or perform analysis and learn more about the users.
 
-## Model Manipulation
+## Object Manipulation
 
-In order to show some 
+One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications where the ability to
