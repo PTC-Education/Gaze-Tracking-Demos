@@ -36,7 +36,7 @@ By figuring out how to access this complete set of data, we could know exactly w
 
 ## Object Manipulation
 
-One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications where the ability to change an AR experience based on what the user is seeing would be beneficial. Listed below are some simple demos I have made to show potential use cases and provoke your creativity in implementing gaze tracking for yourself.
+One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications where the ability to change an AR experience based on what the user is seeing would be beneficial. Listed below are some simple demos I have made to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
 
 - [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
 - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
