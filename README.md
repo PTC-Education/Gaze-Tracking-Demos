@@ -7,12 +7,14 @@
 
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
 - [Object Manipulation](#object-manipulation)
-  - [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
-  - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+  - [Understanding Gaze Tracking Demo](#understanding-gaze-tracking-demo)
   - [Put That, There Demo](#put-that,there-demo)
+  - [Simon Game Demo](#simon-game-demo)
 - [Analytical Applications](#analytical-applications)
-  - [Ring of Colored Labels](#ring-of-colored-labels)
-  - [Board of Colored Labels](#board-of-colored-labels)
+  - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+  - [Board of Colored Labels Demo](#board-of-colored-labels-demo)
+  - [Ring of Colored Labels Demo](#ring-of-colored-labels-demo)
+ 
 
 ## What is Gaze Tracking?
 
@@ -35,10 +37,16 @@ By figuring out how to access this complete set of data, we could know exactly w
 
 ## Object Manipulation
 
-One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications where the ability to change an AR experience based on what the user is seeing would be beneficial. Listed below are some simple demos I have made to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
+One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications in which the ability to change an AR experience based on what the user is seeing would be beneficial. Listed below are some simple demos to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
 
-- [Basic Model Manipulation Demo](#basic-model-manipulation-demo)
-- [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+- [Understanding Gaze Tracking Demo](#understanding-gaze-tracking-demo)
 - [Put That, There Demo](#put-that,there-demo)
+- [Simon Game Demo](#simon-game-demo)
 
-### Basic Model Manipulation Demo
+### Understanding Gaze Tracking Demo
+
+This first example is fundamentally a proof of concept that helped me better understand the nature of gaze data within Vuforia Studio. Beacause it was the first AR experience created that incorperates gaze tracking, it is primarily focused on making gaze tracking data visible and less focused on 
+
+### Put That, There Demo
+
+
