@@ -12,7 +12,6 @@
   - [Put That, There Demo](#put-that,there-demo)
 - [Analytical Applications](#analytical-applications)
   - [Ring of Colored Labels](#ring-of-colored-labels)
-  - [Field of Colored Labels](#field-of-colored-labels)
   - [Board of Colored Labels](#board-of-colored-labels)
 
 ## What is Gaze Tracking?
