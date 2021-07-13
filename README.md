@@ -12,8 +12,8 @@
   - [Simon Game Demo](#simon-game-demo)
 - [Analytical Applications](#analytical-applications)
   - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
-  - [Board of Colored Labels Demo](#board-of-colored-labels-demo)
-  - [Ring of Colored Labels Demo](#ring-of-colored-labels-demo)
+  - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
+  - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
  
 
 ## What is Gaze Tracking?
