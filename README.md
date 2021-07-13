@@ -8,7 +8,7 @@
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
 - [Object Manipulation](#object-manipulation)
   - [Understanding Gaze Tracking Demo](#understanding-gaze-tracking-demo)
-  - [Put That, There Demo](#put-that,there-demo)
+  - [Put That, There Demo](#put-that-there-demo)
   - [Simon Game Demo](#simon-game-demo)
 - [Analytical Applications](#analytical-applications)
   - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
@@ -40,7 +40,7 @@ By figuring out how to access this complete set of data, we could know exactly w
 One of the potential use cases for gaze tracking is to employ data about the user's gaze to manipulate objects within the AR space. There are endless applications in which the ability to change an AR experience based on what the user is seeing would be beneficial. Listed below are some simple demos to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
 
 - [Understanding Gaze Tracking Demo](#understanding-gaze-tracking-demo)
-- [Put That, There Demo](#put-that,there-demo)
+- [Put That, There Demo](#put-that-there-demo)
 - [Simon Game Demo](#simon-game-demo)
 
 ### Understanding Gaze Tracking Demo
@@ -54,5 +54,4 @@ In addition to the data display, there is a basic example of moving a model with
 [![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
 ### Put That, There Demo
-
 
