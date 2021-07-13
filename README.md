@@ -63,4 +63,4 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 ### Simon Game Demo
 
-The last example for object manipulation demonstrates how gaze tracking can be used to interact with specific components on a model.
+The last example for object manipulation demonstrates how gaze tracking can be used to select specific components on a model.
