@@ -45,7 +45,7 @@ One of the potential use cases for gaze tracking is to employ data about the use
 
 ### Understanding Gaze Tracking Demo
 
-This first example is fundamentally a proof of concept that helped me better understand the nature of gaze data within Vuforia Studio. Beacause it was the first AR experience created that incorperates gaze tracking, it is primarily focused on making gaze tracking data visible. There are six on-screen labels that constantly display the user's X, Y, & Z-coordinates, as well as the X, Y, & Z components of the gaze vector. This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
+This first example is fundamentally a proof of concept that helped me better understand the nature of gaze data within Vuforia Studio. Beacause it was the first AR experience created that incorperates gaze tracking, it is primarily focused on making gaze tracking data visible. There are six on-screen labels that constantly display the user's X, Y, & Z-coordinates (the yellow point in the above explanation), as well as the X, Y, & Z components of the gaze vector (the blue vector in the above explanation). This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
 
 In addition to the data display, there is a basic example of moving a model within a 3D space based on the user's position. There is a small model of the Death Star that mirrors the user's position across the X-Y plane that moves left, right, up, or down with the user's device just like an object in a real mirror would. A brief screen recording of this AR experience is included below:
 
@@ -54,4 +54,8 @@ In addition to the data display, there is a basic example of moving a model with
 [![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
 ### Put That, There Demo
+
+The next example shows how gaze tracking can be used to move models within an AR experience. Currently, Vuforia Studio lacks the ability to reposition individual models without moving the tracking for the entire experience. This means that it is presently impossible to move AR objects relative to each other, which would necessary for tasks like laying out a space (e.g., a shop floor) in augmented reality. This AR experience serves as a remedy to this inability and is a powerful demonstration of how gaze tracking could be used to manipulate objects within an AR experience.
+
+The mechanism for this experience is as follows: A voice command (HoloLens) or a on-screen button (mobile devices) is used to trigger the model relocation. The model displaying on the user's screen is selected and the relocation process begins. (If there is more than one model on screen, the model closest to the user is selected.) The selected model's position is determined by the point at which the user's gaze vector (the blue vector in the above explanation) intersects the ground plane (Y=0). This intersection provides an X-Z coordinate for the model to follow and once the desired position is found, the model can be locked in place with another voice command or button-press. A brief screen recording of this AR experience is included below:
 
