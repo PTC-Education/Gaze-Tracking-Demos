@@ -52,7 +52,7 @@ In addition to the data display, there is a basic example of moving a model with
 
 *As the user moves left and right, up and down, or forward and backward, watch the X, Y, and Z labels change, respectively.*
 
-![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
+[![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
 ### Put That, There Demo
 
@@ -66,7 +66,7 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 *Additionally, an updated twin of the AR experience can be rendered in Onshape.*
 
-![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
+[![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
 
 ### Simon Game Demo
 
