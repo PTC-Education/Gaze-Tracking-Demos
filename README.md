@@ -60,7 +60,6 @@ The next example shows how gaze tracking can be used to move entire models withi
 
 The mechanism for this experience is as follows: A voice command (HoloLens) or a on-screen button (mobile devices) is used to trigger the model relocation. The model displaying on the user's screen is selected and the relocation process begins. (If there is more than one model on screen, the model closest to the user is selected.) The selected model's position is determined by the point at which the user's gaze vector (the blue vector in the above explanation) intersects the ground plane (Y=0). This intersection provides an X-Z coordinate for the model to follow and once the desired position is found, the model can be locked in place with another voice command or button-press. A brief screen recording of this AR experience is included below:
 
-
 ### Simon Game Demo
 
-The last example for object manipulation demonstrates how gaze tracking can be used to select specific components on a model.
+The last example in the object manipulation category demonstrates how gaze tracking can be used to interact with specific components on a model. In contrast to the "Put That, There" Demo that focuses on moving an entire model, this AR experience is lets users select specific part of a model using their gaze. This is done by tracking the user's gaze in relation to a specified portion of the model, rather than the model in its entirety. The ability to identify certain components of a model greatly enhances the capabilities of gaze tracking and 
