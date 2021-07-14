@@ -7,6 +7,7 @@
 ### **Table of Contents**
 
 - [What is Gaze Tracking?](#what-is-gaze-tracking)
+- [ThingMark for Viewing AR Experiences](#thingmark-for-viewing-ar-experiences)
 - [Object Manipulation](#object-manipulation)
   - [Understanding Gaze Tracking Demo](#understanding-gaze-tracking-demo)
   - [Put That, There Demo](#put-that-there-demo)
@@ -35,6 +36,12 @@ The user's position and orientation are also defined out of necessity and are co
 
 
 By figuring out how to access this complete set of data, we could know exactly where the user is and where they are looking in realtion to the objects in the AR experience. This knowledge would allow us to take our AR experiences to the next level by using the user's position and gaze to find out more about what they are actually seeing. We can use these data to manipulate the objects in the experience or perform analysis and learn more about the users.
+
+## ThingMark for Viewing AR Experiences
+
+The AR experiences described below can all be viewed by scanning this ThingMark with the Vuforia View app:
+
+<img width="300" alt="ThingMark" src="https://user-images.githubusercontent.com/86619231/125703339-dea6da9a-ef52-420b-8ef5-9cd0fcf38b19.png">
 
 ## Object Manipulation
 
@@ -70,6 +77,8 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 [![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
 
+The "Put That, There Demo" experiences can be downloaded [here].
+
 ### Simon Game Demo
 
 The last example in the object manipulation category demonstrates how gaze tracking can be used to interact with specific components on a model. In contrast to the "Put That, There" Demo that focuses on moving an entire model, this AR experience is lets users select specific part of a model using their gaze. This is done by tracking the user's gaze in relation to a specified portion of the model, rather than the model in its entirety. The ability to identify certain parts of a model greatly enhances the capabilities of gaze tracking and creates many additional applications in which gaze tracking could be used.
@@ -79,6 +88,8 @@ This AR experience is an augmented reality recreation of the classic game "[Simo
 *The classic game "Simon" is now in augmented reality and can be played either by gaze or by touch.*
 
 (Screen recording of Simon game)
+
+The "Simon Game Demo" experience can be downloaded [here].
 
 ## Analytical Applications
 
