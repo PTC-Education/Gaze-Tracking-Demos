@@ -54,6 +54,8 @@ In addition to the data display, there is a basic example of moving a model with
 
 [![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
+The "Understanding Gaze Tracking Demo" experience can be downloaded [here](Understanding_Gaze_Tracking_Demo.zip).
+
 ### Put That, There Demo
 
 The next example shows how gaze tracking can be used to move entire models within an AR experience. Currently, Vuforia Studio lacks the ability to reposition individual models without moving the tracking for the entire experience. This means that it is presently impossible to move AR objects relative to each other, which would necessary for tasks like laying out a space (e.g., a shop floor) using augmented reality. This AR experience serves as a remedy to this inability and is a powerful demonstration of how gaze tracking could be used to manipulate objects within an AR experience. It is based on a retro MIT Architecture Machine Group demo [Put That There](https://youtu.be/CbIn8p4_4CQ).
