@@ -52,7 +52,7 @@ In addition to the data display, there is a basic example of moving a model with
 
 *As the user moves left and right, up and down, or forward and backward, watch the X, Y, and Z labels change, respectively.*
 
-[![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
+![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
 ### Put That, There Demo
 
@@ -60,14 +60,28 @@ The next example shows how gaze tracking can be used to move entire models withi
 
 The mechanism for this experience is as follows: A voice command (HoloLens) or a on-screen button (mobile devices) is used to trigger the model relocation. The model displaying on the user's screen is selected and the relocation process begins. (If there is more than one model on screen, the model closest to the user is selected.) The selected model's position is determined by the point at which the user's gaze vector (the blue vector in the above explanation) intersects the ground plane (Y=0). This intersection provides an X-Z coordinate for the model to follow and once the desired position is found, the model can be locked in place with another voice command or button-press. A brief screen recording of this AR experience is included below:
 
+*Models within the AR experience are moved relative to each other throughout the 3D environment.*
+
+(HoloLens recording with voiceover)
+
+*Additionally, an updated twin of the AR experience can be rendered in Onshape.*
+
+![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
+
 ### Simon Game Demo
 
 The last example in the object manipulation category demonstrates how gaze tracking can be used to interact with specific components on a model. In contrast to the "Put That, There" Demo that focuses on moving an entire model, this AR experience is lets users select specific part of a model using their gaze. This is done by tracking the user's gaze in relation to a specified portion of the model, rather than the model in its entirety. The ability to identify certain parts of a model greatly enhances the capabilities of gaze tracking and creates many additional applications in which gaze tracking could be used.
 
 This AR experience is an augmented reality recreation of the classic game "[Simon"](https://en.wikipedia.org/wiki/Simon_(game)) and can be played either by gaze or by touch. When playing by gaze, the user selects the game's buttons using their gaze vector (the blue vector in the above explanation). The vector's position is represented by an on-screen reticle to make selecting easier. When selected, the button in question is highlighted, then pressed after a brief delay. When playing by touch, the user selects the game's button simply by pressing on their device screen, much like what happens in the physical game. A brief screen recording of this AR experience is included below:
 
+*The classic game "Simon" is now in augmented reality and can be played either by gaze or by touch.*
 
+(Screen recording of Simon game)
 
 ## Analytical Applications
 
-The other potential use case for gaze tracking detailed here is harvesting and logging data about the user's gaze in order to perform analysis and learn more about the users themselves. This analysis could be very useful to AR authors
+The other potential use case for gaze tracking detailed here is harvesting and logging data about the user's gaze in order to perform analysis and learn more about the users themselves. This analysis could be very useful to AR authors seeking quantitative feedback because they could see exactly how users move through their AR experiences and/or what they were looking at. It could also help those managing AR experiences (e.g., educators or line managers in a factory) to monitor how their users are interacting with the AR experiences. Listed below are some simple demos to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
+
+- [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+- [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
+- [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
