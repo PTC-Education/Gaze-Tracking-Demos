@@ -115,7 +115,9 @@ The "Quantifying Gaze Duration Demo" experience can be downloaded [here].
 
 ### Board of Colorful Labels Demo
 
-The next example shows how gaze tracking can be used to conduct experiments 
+The next example shows how gaze tracking can be used to conduct experiments to quantify how captivated users are by different elements within the AR space. This AR experience contains 10 3D labels that all different colors and strives to quantify how different colored labels engage the user's attention. The color of the each label is randomly assigned each time the experience is opened in order to minimize any bias created by the label's position. The labels have been arranged like a flat billboard for easy viewing.
+
+As the user moves throughout the AR experience, their gaze data is continuously passed into ThingWorx and logged in a DataTable to be analyzed later. This data table contains fields for 
 
 ### Ring of Colorful Labels Demo
 
