@@ -62,7 +62,7 @@ In addition to the data display, there is a basic example of moving a model with
 
 [![Understanding Gaze Tracking Demo Video](https://img.youtube.com/vi/XZiJFjOexxo/0.jpg)](https://www.youtube.com/watch?v=XZiJFjOexxo)
 
-The "Understanding Gaze Tracking Demo" experience can be downloaded [here](AR%20Experience%20Files/Understanding_Gaze_Tracking_Demo.zip).
+The "Understanding Gaze Tracking Demo" experience can be downloaded [here](AR%20Experience%20Files/Understanding_Gaze_Tracking_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Put That, There Demo
 
@@ -78,7 +78,7 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 [![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
 
-The "Put That, There Demo" experiences can be downloaded [here].
+The "Put That, There Demo" experiences can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Simon Game Demo
 
@@ -90,7 +90,7 @@ This AR experience is an augmented reality recreation of the classic game "[Simo
 
 (Screen recording of Simon game)
 
-The "Simon Game Demo" experience can be downloaded [here].
+The "Simon Game Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ## Analytical Applications
 
@@ -111,7 +111,7 @@ This experience is able to determine if a user is looking at an object by taking
 
 (Screen recording of Quantifying Gaze Duration Demo)
 
-The "Quantifying Gaze Duration Demo" experience can be downloaded [here].
+The "Quantifying Gaze Duration Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Board of Colorful Labels Demo
 
@@ -121,9 +121,13 @@ As the user moves throughout the AR experience, their gaze data is continuously 
 
 [![Board of Colorful Labels Demo Video](https://img.youtube.com/vi/QF1vHx24uEY/0.jpg)](https://www.youtube.com/watch?v=QF1vHx24uEY)
 
+The "Board of Colorful Labels Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+
 ### Ring of Colorful Labels Demo
 
 Basically a repeat of the "Board of Colorful Labels Demo", but with a different layout for the labels.
+
+The "Ring of Colorful Labels Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Other Ideas for Analytics
 
