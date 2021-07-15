@@ -96,7 +96,7 @@ The "Simon Game Demo" experience can be downloaded [here].
 
 The other potential use case for gaze tracking detailed here is harvesting and logging data about the user's gaze in order to perform analysis and learn more about the users themselves. This analysis could be very useful to AR authors seeking quantitative feedback because they could see exactly how users move through their AR experiences and/or what they were looking at. It could also help those managing AR experiences (e.g., educators or line managers in a factory) to monitor how their users are interacting with the AR experiences. Listed below are some simple demos to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
 
-- [Quantifying Gaze Duration Demo](#quantifyng-gaze-duration-demo)
+- [Quantifying Gaze Duration Demo](#quantifying-gaze-duration-demo)
 - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
 - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
 - [Other Ideas for Analytics](#other-ideas-for-analytics)
@@ -118,6 +118,8 @@ The "Quantifying Gaze Duration Demo" experience can be downloaded [here].
 The next example shows how gaze tracking can be used to conduct experiments to quantify how captivated users are by different elements within the AR space. This AR experience contains 10 3D labels that all different colors and strives to quantify how different colored labels engage the user's attention. The color of the each label is randomly assigned each time the experience is opened in order to minimize any bias created by the label's position. The labels have been arranged like a flat billboard for easy viewing.
 
 As the user moves throughout the AR experience, their gaze data is continuously passed into ThingWorx and logged in a DataTable to be analyzed later. This data table contains fields for 
+
+[![Board of Colorful Labels Demo Video](https://img.youtube.com/vi/QF1vHx24uEY/0.jpg)](https://www.youtube.com/watch?v=QF1vHx24uEY)
 
 ### Ring of Colorful Labels Demo
 
