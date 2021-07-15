@@ -115,3 +115,12 @@ The "Quantifying Gaze Duration Demo" experience can be downloaded [here].
 
 ### Board of Colorful Labels Demo
 
+The next example shows how gaze tracking can be used to conduct experiments 
+
+### Ring of Colorful Labels Demo
+
+Basically a repeat of the "Board of Colorful Labels Demo", but with a different layout for the labels.
+
+### Other Ideas for Analytics
+
+Propose applications with heat maps of both where the user is looking and where they moved in the 3D space. Find some way to show how user's location changes over time.
