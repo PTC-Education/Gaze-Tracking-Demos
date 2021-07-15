@@ -105,4 +105,13 @@ The other potential use case for gaze tracking detailed here is harvesting and l
 
 The first example in the analytics category was created as a testing grounds to figure out how to quantify the time spent looking at each object in the AR experience. It is similar to the "Understanding Gaze Tracking Demo" above, in that it is primarily focused on making gaze tracking data visible. There are seven on-screen labels that constantly update with the total time spent in the AR experience, the user's focus on both objects, their distance from both objects, as well as the time they have spent looking at each object. This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
 
-This experience is able to determine if a user is looking at an object by taking the dot product between the gaze vector (the blue vector in the above explanation) and the vector from the user to the object in question. When used with unit vectors, the dot product yields a value between \[-1, 1\]
+This experience is able to determine if a user is looking at an object by taking the dot product between the gaze vector (the blue vector in the above explanation) and the vector from the user to the object in question. When used with unit vectors, the dot product yields a value between \[-1, 1\] and the closer the result is to 1, the closer the two vectors are aligned. Testing was performed to determine that a dot product was greater than or equal to 0.85 meant the object was currently displayed on the screen. It could then be concluded that when the dot product of the gaze vector and any object exceeded the threshold of 0.85, the gaze timer for that object should increment. A brief screen recording of this AR experience is included below:
+
+*As the user focuses their gaze on each object, the corresponding timer increments to compute the total gaze duration for that object.*
+
+(Screen recording of Quantifying Gaze Duration Demo)
+
+The "Quantifying Gaze Duration Demo" experience can be downloaded [here].
+
+### Board of Colorful Labels Demo
+
