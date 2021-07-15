@@ -13,9 +13,10 @@
   - [Put That, There Demo](#put-that-there-demo)
   - [Simon Game Demo](#simon-game-demo)
 - [Analytical Applications](#analytical-applications)
-  - [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+  - [Quantifying Gaze Duration Demo](#quantifying-gaze-duration-demo)
   - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
   - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
+  - [Other Ideas for Analytics](#other-ideas-for-analytics)
  
 
 ## What is Gaze Tracking?
@@ -53,7 +54,7 @@ One of the potential use cases for gaze tracking is to employ data about the use
 
 ### Understanding Gaze Tracking Demo
 
-This first example is fundamentally a proof of concept that helped me better understand the nature of gaze data within Vuforia Studio. Beacause it was the first AR experience created that incorperates gaze tracking, it is primarily focused on making gaze tracking data visible. There are six on-screen labels that constantly display the user's X, Y, & Z-coordinates (the yellow point in the above explanation), as well as the X, Y, & Z components of the gaze vector (the blue vector in the above explanation). This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
+This first example is fundamentally a proof of concept that helped me better understand the nature of gaze data within Vuforia Studio. Beacause it was the first AR experience created that incorperates gaze tracking, it is primarily focused on making gaze tracking data visible. There are six on-screen labels that constantly update with the user's X, Y, & Z-coordinates (the yellow point in the above explanation), as well as the X, Y, & Z components of the gaze vector (the blue vector in the above explanation). This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
 
 In addition to the data display, there is a basic example of moving a model within a 3D space based on the user's position. There is a small model of the Death Star that mirrors the user's position across the X-Y plane that moves left, right, up, or down with the user's device just like an object in a real mirror would. A brief screen recording of this AR experience is included below:
 
@@ -95,6 +96,13 @@ The "Simon Game Demo" experience can be downloaded [here].
 
 The other potential use case for gaze tracking detailed here is harvesting and logging data about the user's gaze in order to perform analysis and learn more about the users themselves. This analysis could be very useful to AR authors seeking quantitative feedback because they could see exactly how users move through their AR experiences and/or what they were looking at. It could also help those managing AR experiences (e.g., educators or line managers in a factory) to monitor how their users are interacting with the AR experiences. Listed below are some simple demos to show potential use cases and inspire your creativity in implementing gaze tracking for yourself.
 
-- [Timing Gaze Duration Demo](#timing-gaze-duration-demo)
+- [Quantifying Gaze Duration Demo](#quantifyng-gaze-duration-demo)
 - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
 - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
+- [Other Ideas for Analytics](#other-ideas-for-analytics)
+
+### Quantifying Gaze Duration Demo
+
+The first example in the analytics category was created as a testing grounds to figure out how to quantify the time spent looking at each object in the AR experience. It is similar to the "Understanding Gaze Tracking Demo" above, in that it is primarily focused on making gaze tracking data visible. There are seven on-screen labels that constantly update with the total time spent in the AR experience, the user's focus on both objects, their distance from both objects, as well as the time they have spent looking at each object. This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
+
+This experience is able to determine if a user is looking at an object by taking the dot product between the gaze vector (the blue vector in the above explanation) and the vector from the user to the object in question. When used with unit vectors, the dot product yields a value between \[-1, 1\]
