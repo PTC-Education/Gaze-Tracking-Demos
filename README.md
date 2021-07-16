@@ -127,8 +127,9 @@ As the user moves throughout the AR experience, their gaze data is continuously 
   obj#Class: The label's randomly assigned CSS class, which controls the label's color. <br>
   obj#Dist: The distance from the user to the label. <br>
   obj#Dot: The dot product of the user's gaze vector and the vector from the user to the label (this quantifies the user's focus on the label). <br>
-  obj#Timer: The total time spent viewing the label. <br>
+  obj#Timer: The total time spent viewing the label.
 </details>
+<br>
 
 <img height="350" alt="Sample Data Table" src="https://user-images.githubusercontent.com/86619231/126009238-069bcd1e-8f6e-460e-ba2b-7a640f2e3de3.png">
 
