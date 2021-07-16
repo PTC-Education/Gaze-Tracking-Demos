@@ -35,7 +35,6 @@ The user's position and orientation are also defined out of necessity and are co
 
 <img width="450" alt="3D Position   Orientation" src="https://user-images.githubusercontent.com/86619231/125130156-c1374e00-e0bd-11eb-84a8-00e8cefb6635.png">
 
-
 By figuring out how to access this complete set of data, we could know exactly where the user is and where they are looking in realtion to the objects in the AR experience. This knowledge would allow us to take our AR experiences to the next level by using the user's position and gaze to find out more about what they are actually seeing. We can use these data to manipulate the objects in the experience or perform analysis and learn more about the users.
 
 ## ThingMark for Viewing AR Experiences
@@ -117,7 +116,23 @@ The "Quantifying Gaze Duration Demo" experience can be downloaded [here](https:/
 
 The next example shows how gaze tracking can be used to conduct experiments to quantify how captivated users are by different elements within the AR space. This AR experience contains 10 3D labels that all different colors and strives to quantify how different colored labels engage the user's attention. The color of the each label is randomly assigned each time the experience is opened in order to minimize any bias created by the label's position. The labels have been arranged like a flat billboard for easy viewing.
 
-As the user moves throughout the AR experience, their gaze data is continuously passed into ThingWorx and logged in a DataTable to be analyzed later. This data table contains fields for 
+As the user moves throughout the AR experience, their gaze data is continuously passed into ThingWorx and logged in a DataTable every 0.5 seconds. This data table contains three fields pertaining to the experience as a whole, as well as four separate fields for each of the 10 labels. Explanations for each data field are listed below:
+
+<details>
+<summary>Data Field Explanations</summary>
+<br>
+  extraTime: The total time spent not looking at any of the objects. <br>
+  objectBeingViewed: The object closest to the center of the device screen. <br>
+  totalTime: The total time spent inside the AR experience. <br>
+  obj#Class: The label's randomly assigned CSS class, which controls the label's color. <br>
+  obj#Dist: The distance from the user to the label. <br>
+  obj#Dot: The dot product of the user's gaze vector and the vector from the user to the label (this quantifies the user's focus on the label). <br>
+  obj#Timer: The total time spent viewing the label. <br>
+</details>
+
+<img height="350" alt="Sample Data Table" src="https://user-images.githubusercontent.com/86619231/126009238-069bcd1e-8f6e-460e-ba2b-7a640f2e3de3.png">
+
+Once the data have been harvested, many forms of analysis can be performed to quantify what kinds of interactions user's are having with the elements of an AR experience. A brief screen recording showing a sample interaction and the accompanying analysis is included below:
 
 [![Board of Colorful Labels Demo Video](https://img.youtube.com/vi/QF1vHx24uEY/0.jpg)](https://www.youtube.com/watch?v=QF1vHx24uEY)
 
