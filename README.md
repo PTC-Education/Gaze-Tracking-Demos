@@ -109,7 +109,7 @@ This experience is able to determine if a user is looking at an object by taking
 
 *As the user focuses their gaze on each object, the corresponding timer increments to compute the total gaze duration for that object.*
 
-(Screen recording of Quantifying Gaze Duration Demo)
+[![Quantifying Gaze Duration Demo Video](https://img.youtube.com/vi/N58wQ4ZVTQk/0.jpg)](https://www.youtube.com/watch?v=N58wQ4ZVTQk)
 
 The "Quantifying Gaze Duration Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
