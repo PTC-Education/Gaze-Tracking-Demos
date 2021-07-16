@@ -70,9 +70,9 @@ The next example shows how gaze tracking can be used to move entire models withi
 
 The mechanism for this experience is as follows: A voice command (HoloLens) or a on-screen button (mobile devices) is used to trigger the model relocation. The model displaying on the user's screen is selected and the relocation process begins. (If there is more than one model on screen, the model closest to the user is selected.) The selected model's position is determined by the point at which the user's gaze vector (the blue vector in the above explanation) intersects the ground plane (Y=0). This intersection provides an X-Z coordinate for the model to follow and once the desired position is found, the model can be locked in place with another voice command or button-press. A brief screen recording of this AR experience is included below:
 
-*Models within the AR experience are moved relative to each other throughout the 3D environment.*
+*Models within the AR experience are moved relative to each other throughout the 3D environment using a Microsoft HoloLens 2.*
 
-(HoloLens recording with voiceover)
+[![Put That, There on HoloLens 2](https://img.youtube.com/vi/h0_2xMTR_lk/0.jpg)](https://www.youtube.com/watch?v=h0_2xMTR_lk)
 
 *Additionally, an updated twin of the AR experience can be rendered in Onshape.*
 
