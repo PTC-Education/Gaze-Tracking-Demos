@@ -78,7 +78,7 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 [![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
 
-The "Put That, There Demo" experiences can be downloaded [here](AR%20Experience%20Files/Put_That__There_Demo.zip) for mobile devices or [here](AR%20Experience%20Files/Put_That__There_Demo_-_HoloLens.zip) for 3D Eyeware, or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+The "Put That, There Demo" experiences can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Put_That__There_Demo.zip) for mobile devices or [here](AR%20Experience%20Files/Put_That__There_Demo_-_HoloLens.zip) for 3D Eyeware, or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Simon Game Demo
 
