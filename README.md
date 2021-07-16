@@ -135,13 +135,17 @@ As the user moves throughout the AR experience, their gaze data is continuously 
 
 Once the data have been harvested, many forms of analysis can be performed to quantify what kinds of interactions user's are having with the elements of an AR experience. A brief screen recording showing a sample interaction and the accompanying analysis is included below:
 
+*Charts like the one shown in this video can be used to analyze how users interact with an AR experience.*
+
 [![Board of Colorful Labels Demo Video](https://img.youtube.com/vi/QF1vHx24uEY/0.jpg)](https://www.youtube.com/watch?v=QF1vHx24uEY)
 
 The "Board of Colorful Labels Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Board_of_Colorful_Labels.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Ring of Colorful Labels Demo
 
-Basically a repeat of the "Board of Colorful Labels Demo", but with a different layout for the labels.
+The last example is fundamentally a twin of the "Board of Colorful Labels Demo", but with a different layout for the labels. Instead of being arranged as a flat billboard, the 10 3D labels form a ring around the experience's origin. This new layout serves as another demonstration for how experiements could be set up for quantification with gaze tracking. A brief screen recording of this AR experience is included below:
+
+*Many data point about the user's gaze are logged into a ThingWorx data table. This AR experience serves as a sample environment for harvesting gaze data.*
 
 [![Ring of Colorful Labels Demo Video](https://img.youtube.com/vi/eX7HjJLnazs/0.jpg)](https://www.youtube.com/watch?v=eX7HjJLnazs)
 
