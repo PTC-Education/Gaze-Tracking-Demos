@@ -78,7 +78,7 @@ The mechanism for this experience is as follows: A voice command (HoloLens) or a
 
 [![Put That, There with Onshape Twin](https://img.youtube.com/vi/_Gu3hrTNyVs/0.jpg)](https://www.youtube.com/watch?v=_Gu3hrTNyVs)
 
-The "Put That, There Demo" experiences can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+The "Put That, There Demo" experiences can be downloaded [here](AR%20Experience%20Files/Put_That__There_Demo.zip) for mobile devices or [here](AR%20Experience%20Files/Put_That__There_Demo_-_HoloLens.zip) for 3D Eyeware, or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Simon Game Demo
 
@@ -111,7 +111,7 @@ This experience is able to determine if a user is looking at an object by taking
 
 [![Quantifying Gaze Duration Demo Video](https://img.youtube.com/vi/N58wQ4ZVTQk/0.jpg)](https://www.youtube.com/watch?v=N58wQ4ZVTQk)
 
-The "Quantifying Gaze Duration Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+The "Quantifying Gaze Duration Demo" experience can be downloaded [here](AR%20Experience%20Files/Quantifying_Gaze_Duration_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ### Board of Colorful Labels Demo
 
