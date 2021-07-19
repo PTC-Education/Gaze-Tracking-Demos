@@ -88,7 +88,7 @@ This AR experience is an augmented reality recreation of the classic game ["Simo
 
 *The classic game "Simon" is now in augmented reality and can be played either by gaze or by touch.*
 
-(Screen recording of Simon game)
+[![Simon Game Demo Video](https://img.youtube.com/vi/56xJi2435xo/0.jpg)](https://www.youtube.com/watch?v=56xJi2435xo)
 
 The "Simon Game Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Simon_Game.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
