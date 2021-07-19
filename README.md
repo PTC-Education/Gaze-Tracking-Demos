@@ -159,7 +159,7 @@ The last example in the analytics category demonstrates how gaze tracking can be
 
 *The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
 
-<img width="450" alt="Sample Heat Map" src="https://user-images.githubusercontent.com/86619231/126197497-531ef5de-7d02-4646-b712-9f44200e392a.png">
+<img width="600" alt="Sample Heat Map" src="https://user-images.githubusercontent.com/86619231/126197497-531ef5de-7d02-4646-b712-9f44200e392a.png">
 
 *A condensed version of the experience in which the data for the above heat map was collected.*
 
