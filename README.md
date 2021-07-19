@@ -155,9 +155,13 @@ The "Ring of Colorful Labels Demo" experience can be downloaded [here](https://g
 
 ### Logging User 3D Coordinates Demo
 
-The last example in the analytics category demonstrates how gaze tracking can be used to record a user's motion through an AR experience. This experience  is similar to the "Understanding Gaze Tracking Demo", in that the user's 3D coordinates (the yellow point in the above explanation) are the primary data being used. This experience goes one step further than the "Understanding Gaze Tracking Demo" by logging the X, Y, & Z-coordinates to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing how users move through AR experiences is by creating a heat map with their coordinates to show the areas in which they spent the most time. A sample heat map and a screen recording of when the data was collected are included below:
+The last example in the analytics category demonstrates how gaze tracking can be used to record a user's motion through an AR experience. This experience  is similar to the "Understanding Gaze Tracking Demo", in that the user's 3D coordinates (the yellow point in the above explanation) are the primary data being used. This experience goes one step further than the "Understanding Gaze Tracking Demo" by logging the X, Y, & Z-coordinates to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing how users move through AR experiences is by creating a heat map of their coordinates to show the areas in which they spent the most time. A sample heat map and a screen recording of when the data was collected are included below:
+
+*The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
 
 <img width="450" alt="Sample Heat Map" src="https://user-images.githubusercontent.com/86619231/126197497-531ef5de-7d02-4646-b712-9f44200e392a.png">
+
+*A condensed version of the experience in which the data for the above heat map was collected.*
 
 https://user-images.githubusercontent.com/86619231/126197650-332264ee-ed77-42c5-b2ab-4ac354776cc4.mp4
 
