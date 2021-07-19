@@ -16,6 +16,7 @@
   - [Quantifying Gaze Duration Demo](#quantifying-gaze-duration-demo)
   - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
   - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
+  - [Logging User 3D Coordinates Demo](#logging-user-3d-coordinates-demo)
   - [Other Ideas for Analytics](#other-ideas-for-analytics)
  
 
@@ -98,6 +99,7 @@ The other potential use case for gaze tracking detailed here is harvesting and l
 - [Quantifying Gaze Duration Demo](#quantifying-gaze-duration-demo)
 - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
 - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
+- [Logging User 3D Coordinates Demo](#logging-user-3d-coordinates-demo)
 - [Other Ideas for Analytics](#other-ideas-for-analytics)
 
 ### Quantifying Gaze Duration Demo
@@ -150,6 +152,8 @@ The last example is fundamentally a twin of the "Board of Colorful Labels Demo",
 [![Ring of Colorful Labels Demo Video](https://img.youtube.com/vi/eX7HjJLnazs/0.jpg)](https://www.youtube.com/watch?v=eX7HjJLnazs)
 
 The "Ring of Colorful Labels Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Ring_of_Colorful_Labels.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+
+### Logging User 3D Coordinates Demo
 
 ### Other Ideas for Analytics
 
