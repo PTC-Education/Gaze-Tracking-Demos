@@ -90,7 +90,7 @@ This AR experience is an augmented reality recreation of the classic game ["Simo
 
 (Screen recording of Simon game)
 
-The "Simon Game Demo" experience can be downloaded [here] or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+The "Simon Game Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Simon_Game.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
 ## Analytical Applications
 
