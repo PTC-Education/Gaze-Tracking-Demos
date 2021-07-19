@@ -165,6 +165,9 @@ The last example in the analytics category demonstrates how gaze tracking can be
 
 https://user-images.githubusercontent.com/86619231/126197650-332264ee-ed77-42c5-b2ab-4ac354776cc4.mp4
 
+
+The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_User_3D_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+
 ### Other Ideas for Analytics
 
 Propose applications with heat maps of both where the user is looking and where they moved in the 3D space. Find some way to show how user's location changes over time.
