@@ -180,4 +180,4 @@ The final example in the analytics category demonstrates another method for reco
 
 https://user-images.githubusercontent.com/86619231/126363368-066882bf-df0b-46bc-b2bf-fd2cf40317db.mp4
 
-The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_User_Gaze_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
+The "Logging User Gaze Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_User_Gaze_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
