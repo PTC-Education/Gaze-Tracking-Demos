@@ -17,7 +17,7 @@
   - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
   - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
   - [Logging User 3D Coordinates Demo](#logging-user-3d-coordinates-demo)
-  - [Other Ideas for Analytics](#other-ideas-for-analytics)
+  - [Logging User Gaze Coordinates Demo](#logging-user-gaze-coordinates-demo)
  
 
 ## What is Gaze Tracking?
@@ -100,7 +100,7 @@ The other potential use case for gaze tracking detailed here is harvesting and l
 - [Board of Colorful Labels Demo](#board-of-colorful-labels-demo)
 - [Ring of Colorful Labels Demo](#ring-of-colorful-labels-demo)
 - [Logging User 3D Coordinates Demo](#logging-user-3d-coordinates-demo)
-- [Other Ideas for Analytics](#other-ideas-for-analytics)
+- [Logging User Gaze Coordinates Demo](#logging-user-gaze-coordinates-demo)
 
 ### Quantifying Gaze Duration Demo
 
@@ -145,7 +145,7 @@ The "Board of Colorful Labels Demo" experience can be downloaded [here](https://
 
 ### Ring of Colorful Labels Demo
 
-The last example is fundamentally a twin of the "Board of Colorful Labels Demo", but with a different layout for the labels. Instead of being arranged as a flat billboard, the 10 3D labels form a ring around the experience's origin. This new layout serves as another demonstration for how experiements could be set up for quantification with gaze tracking. A brief screen recording of this AR experience is included below:
+This example is fundamentally a twin of the "Board of Colorful Labels Demo", but with a different layout for the labels. Instead of being arranged as a flat billboard, the 10 3D labels form a ring around the experience's origin. This new layout serves as another demonstration for how experiements could be set up for quantification with gaze tracking. A brief screen recording of this AR experience is included below:
 
 *Many data point about the user's gaze are logged into a ThingWorx data table. This AR experience serves as a sample environment for harvesting gaze data.*
 
@@ -155,7 +155,7 @@ The "Ring of Colorful Labels Demo" experience can be downloaded [here](https://g
 
 ### Logging User 3D Coordinates Demo
 
-The last example in the analytics category demonstrates how gaze tracking can be used to record a user's motion through an AR experience. This experience  is similar to the "Understanding Gaze Tracking Demo", in that the user's 3D coordinates (the yellow point in the above explanation) are the primary data being used. This experience goes one step further than the "Understanding Gaze Tracking Demo" by logging the X, Y, & Z-coordinates to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing how users move through AR experiences is by creating a heat map of their coordinates to show the areas in which they spent the most time. A sample heat map and a screen recording of when the data was collected are included below:
+Here is another example in the analytics category that demonstrates how gaze tracking can be used to record a user's motion through an AR experience. This experience is similar to the "Understanding Gaze Tracking Demo", in that the user's 3D coordinates (the yellow point in the above explanation) are the primary data being used. This experience goes one step further than the "Understanding Gaze Tracking Demo" by logging the X, Y, & Z-coordinates to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing how users move through AR experiences is by creating a heat map of their coordinates to show the areas in which they spent the most time. A sample heat map and a screen recording of when the data was collected are included below:
 
 *The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
 
@@ -168,6 +168,6 @@ https://user-images.githubusercontent.com/86619231/126197650-332264ee-ed77-42c5-
 
 The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_User_3D_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
-### Other Ideas for Analytics
+### Logging User Gaze Coordinates Demo
 
 Propose applications with heat maps of both where the user is looking and where they moved in the 3D space. Find some way to show how user's location changes over time.
