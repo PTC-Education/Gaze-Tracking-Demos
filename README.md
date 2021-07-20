@@ -159,7 +159,7 @@ Here is another example in the analytics category that demonstrates how gaze tra
 
 *The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
 
-<img width="600" alt="Sample Heat Map" src="https://user-images.githubusercontent.com/86619231/126197497-531ef5de-7d02-4646-b712-9f44200e392a.png">
+<img width="600" alt="Sample User Coordinate Heat Map" src="https://user-images.githubusercontent.com/86619231/126197497-531ef5de-7d02-4646-b712-9f44200e392a.png">
 
 *A condensed version of the experience in which the data for the above heat map was collected.*
 
@@ -170,4 +170,14 @@ The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https
 
 ### Logging User Gaze Coordinates Demo
 
-Propose applications with heat maps of both where the user is looking and where they moved in the 3D space. Find some way to show how user's location changes over time.
+The final example in the analytics category that demonstrates another method for recording user's gaze using gaze tracking. This experience is similar to the "Put That, There Demo", in that the intersection of the user's gaze vector (the blue vector in the above explanation) with a defined plane is the primary data being used. However, instead of using this intersection point to move a model, this experience takes that point and logs it to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing where users are pointing their devices is by creating a heat map the gaze intersetion points to show the areas the viewed the longest. A sample heat map and a screen recording of when the data was collected are included below:
+
+*The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
+
+<img width="600" alt="Sample Gaze Coordinate Heat Map" src="https://user-images.githubusercontent.com/86619231/126362705-6d8be665-d437-4106-ac1d-789b969f31fb.png">
+
+*A condensed version of the experience in which the data for the above heat map was collected.*
+
+https://user-images.githubusercontent.com/86619231/126363368-066882bf-df0b-46bc-b2bf-fd2cf40317db.mp4
+
+The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_Gaze_3D_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
