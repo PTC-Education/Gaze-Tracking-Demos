@@ -170,7 +170,7 @@ The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https
 
 ### Logging User Gaze Coordinates Demo
 
-The final example in the analytics category that demonstrates another method for recording user's gaze using gaze tracking. This experience is similar to the "Put That, There Demo", in that the intersection of the user's gaze vector (the blue vector in the above explanation) with a defined plane is the primary data being used. However, instead of using this intersection point to move a model, this experience takes that point and logs it to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing where users are pointing their devices is by creating a heat map the gaze intersetion points to show the areas the viewed the longest. A sample heat map and a screen recording of when the data was collected are included below:
+The final example in the analytics category demonstrates another method for recording user's gaze using gaze tracking. This experience is similar to the "Put That, There Demo", in that the intersection of the user's gaze vector (the blue vector in the above explanation) with a defined plane is the primary data being used. However, instead of using this intersection point to move a model, this experience takes that point and logs it to a ThingWorx data table so analysis can be performed. One intuitive method for visualizing where users are pointing their devices is by creating a heat map the gaze intersetion points to show the areas the viewed the longest. A sample heat map and a screen recording of when the data was collected are included below:
 
 *The darkest red regions indicate where the most time was spent, while each dot represents a point where data was collected.*
 
