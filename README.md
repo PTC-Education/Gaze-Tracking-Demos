@@ -163,7 +163,7 @@ Here is another example in the analytics category that demonstrates how gaze tra
 
 *A condensed version of the experience in which the data for the above heat map was collected.*
 
-<img width="450" alt="Logging User 3D Coordinates Demo GIF" src="https://user-images.githubusercontent.com/86619231/126428228-4117659c-726c-424a-9157-f9155b4f8943.gif">
+<img width="450" alt="Logging User 3D Coordinates Demo GIF" src="https://user-images.githubusercontent.com/86619231/126430000-ad923916-0b36-4f87-985e-3dc8c765c26f.gif">
 
 The "Logging User 3D Coordinates Demo" experience can be downloaded [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Logging_User_3D_Coordinates_Demo.zip) or viewed with the [ThingMark](#thingmark-for-viewing-ar-experiences) above.
 
