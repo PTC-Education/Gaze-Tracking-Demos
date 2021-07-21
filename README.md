@@ -102,6 +102,8 @@ The other potential use case for gaze tracking detailed here is harvesting and l
 - [Logging User 3D Coordinates Demo](#logging-user-3d-coordinates-demo)
 - [Logging User Gaze Coordinates Demo](#logging-user-gaze-coordinates-demo)
 
+Download all ThingWorx entities required for these experiences [here](https://github.com/PTC-Education/Gaze-Tracking-Demos/raw/main/AR%20Experience%20Files/Entities.twx).
+
 ### Quantifying Gaze Duration Demo
 
 The first example in the analytics category was created as a testing grounds to figure out how to quantify the time spent looking at each object in the AR experience. It is similar to the "Understanding Gaze Tracking Demo" above, in that it is primarily focused on making gaze tracking data visible. There are seven on-screen labels that constantly update with the total time spent in the AR experience, the user's focus on both objects, their distance from both objects, as well as the time they have spent looking at each object. This data display allows the user to see the gaze data that are being processed in real time and gives them a better idea of what the data actually look like.
